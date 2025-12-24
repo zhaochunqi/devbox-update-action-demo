@@ -1,0 +1,19 @@
+name: Update Devbox Packages
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Weekly on Mondays
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  update-packages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Update Devbox Packages
+        uses: xiaolutech/devbox-update-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
