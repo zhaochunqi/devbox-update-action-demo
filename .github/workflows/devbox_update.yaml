@@ -1,7 +1,7 @@
 name: Update Devbox Packages
 on:
   schedule:
-    - cron: '0 0 * * 1' # Weekly on Mondays
+    - cron: "0 0 * * 1" # Weekly on Mondays
   workflow_dispatch: # Manual trigger
 
 jobs:
@@ -12,7 +12,10 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-      
+
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.12.0
+
       - name: Update Devbox Packages
         uses: xiaolutech/devbox-update-action@main
         with:
