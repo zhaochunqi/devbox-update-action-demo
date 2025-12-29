@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.16.0/.schema/devbox.schema.json",
   "packages": [
-    "valkey@7.2.6",
-    "curl@7.81.0"
+    "valkey@8.1.4",
+    "curl@8.17.0"
   ],
   "shell": {
     "init_hook": [
