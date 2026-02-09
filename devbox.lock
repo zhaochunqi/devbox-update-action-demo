@@ -129,52 +129,52 @@
       "last_modified": "2025-12-27T21:13:36Z",
       "resolved": "github:NixOS/nixpkgs/5c2bc52fb9f8c264ed6c93bd20afa2ff5e763dce?lastModified=1766870016"
     },
-    "valkey@9.0.1": {
-      "last_modified": "2025-12-27T21:13:36Z",
+    "valkey@9.0.2": {
+      "last_modified": "2026-02-04T01:49:30Z",
       "plugin_version": "0.0.1",
-      "resolved": "github:NixOS/nixpkgs/5c2bc52fb9f8c264ed6c93bd20afa2ff5e763dce#valkey",
+      "resolved": "github:NixOS/nixpkgs/aa290c9891fa4ebe88f8889e59633d20cc06a5f2#valkey",
       "source": "devbox-search",
-      "version": "9.0.1",
+      "version": "9.0.2",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/i2j2bm080hcgw9jaqkqwwg166r8w8mfl-valkey-9.0.1",
+              "path": "/nix/store/7kr2y677j85v7s49w1bjar8nkd2kwrqm-valkey-9.0.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/i2j2bm080hcgw9jaqkqwwg166r8w8mfl-valkey-9.0.1"
+          "store_path": "/nix/store/7kr2y677j85v7s49w1bjar8nkd2kwrqm-valkey-9.0.2"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/8jbgyvq7hh3vpqsrxdrbi58hjmr4phdf-valkey-9.0.1",
+              "path": "/nix/store/0nh2rqirjnczrfwz3a52gxlwas1hl1n5-valkey-9.0.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/8jbgyvq7hh3vpqsrxdrbi58hjmr4phdf-valkey-9.0.1"
+          "store_path": "/nix/store/0nh2rqirjnczrfwz3a52gxlwas1hl1n5-valkey-9.0.2"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/s3j8788g5w56i3gwhr6w651vd1iyfpzv-valkey-9.0.1",
+              "path": "/nix/store/650rg2fymzm3r5py8lzp3ky494pl7wzs-valkey-9.0.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/s3j8788g5w56i3gwhr6w651vd1iyfpzv-valkey-9.0.1"
+          "store_path": "/nix/store/650rg2fymzm3r5py8lzp3ky494pl7wzs-valkey-9.0.2"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/sw8rzhnj374f9ljqb2aq57rnsxy0rfm6-valkey-9.0.1",
+              "path": "/nix/store/9iiyx9i6girfrkk7f97plnrm8665y12k-valkey-9.0.2",
               "default": true
             }
           ],
-          "store_path": "/nix/store/sw8rzhnj374f9ljqb2aq57rnsxy0rfm6-valkey-9.0.1"
+          "store_path": "/nix/store/9iiyx9i6girfrkk7f97plnrm8665y12k-valkey-9.0.2"
         }
       }
     }
